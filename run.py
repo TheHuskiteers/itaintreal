@@ -21,3 +21,6 @@ def get_data():
 def get_random_line_from_file(path):
     lines = open(path, 'r').read().splitlines()
     return random.choice(lines)
+
+if __name__ == '__main__':
+    app.run()
