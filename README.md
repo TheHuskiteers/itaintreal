@@ -6,4 +6,4 @@ itaintreal wuz created by the huskiteers to generate conspiracy theories
 
 Make sure you have `pipenv` installed, then run
 
-`pipenv run python run.py`
+`pipenv run gunicorn itaintreal:app`
