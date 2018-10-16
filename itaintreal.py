@@ -3,7 +3,6 @@ import random
 from flask import (Flask, render_template)
 from pathlib import Path
 
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -23,4 +22,4 @@ def get_random_line_from_file(path):
     return random.choice(lines)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
