@@ -8,6 +8,7 @@ body {
     font-size: 36px;
     color: #444;
     padding: 0 10px;
+    text-shadow:#0000008c 2px 2px 5px;
 }
 
 h1, h2, h3 {
